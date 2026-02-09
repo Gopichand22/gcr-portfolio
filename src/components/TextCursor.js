@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import './TextCursor.css';
 
 const TextCursor = ({
   text = '⚛️',
