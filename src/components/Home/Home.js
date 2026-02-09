@@ -13,7 +13,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <TextCursor
-          text="⚛"
+          text="gopi"
           spacing={80}
           followMouseDirection
           randomFloat
