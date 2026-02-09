@@ -2,25 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/profilepic.jpeg";
 import Particle from "../Particle";
-import TextCursor from "../TextCursor";
 
 import Type from "./Type";
 import About from "../About/About";
 
 function Home() {
   return (
+  console.log("TextCursor rendered home"),
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
-        <TextCursor
-          text="gopi"
-          spacing={80}
-          followMouseDirection
-          randomFloat
-          exitDuration={0.3}
-          removalInterval={20}
-          maxPoints={10}
-        />
         <Container className="home-content">
           <Row>
           <Col md={5} style={{ paddingBottom: 20 }}>
@@ -66,7 +57,7 @@ function Home() {
               </h1>
               <h2 style={{ paddingTop: 100 }} className="skill-heading">Tech-Stack
               </h2>
-              <div style={{ paddingTop: 20, paddingLeft: 50, textAlign: "left" }}>
+              <div>
                 <Type />
               </div>
             </Col>
