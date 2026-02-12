@@ -316,6 +316,10 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .Typewriter{
+    margin-bottom: 2rem;
+  }
+
   .Typewriter__wrapper {
     font-size: 1em !important;
     font-weight: 200 !important;

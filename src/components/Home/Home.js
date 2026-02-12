@@ -8,7 +8,6 @@ import About from "../About/About";
 
 function Home() {
   return (
-  console.log("TextCursor rendered home"),
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
