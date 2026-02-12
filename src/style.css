@@ -305,7 +305,7 @@ button:focus {
   color: #0a58ca;
 }
 
-.Typewriter__wrapper {
+.typewriter-wrapper-mobile .Typewriter__wrapper {
   font-size: 1em !important;
   color: white !important;
   font-weight: 200 !important;
@@ -315,9 +315,16 @@ button:focus {
   color: white !important;
 }
 
+.typewriter-wrapper-mobile{
+    display: none;
+}
+
 @media (max-width: 767px) {
-  .Typewriter{
-    margin-bottom: 2rem;
+  .typewriter-wrapper-mobile{
+    display:block !important;
+  }
+  .typewriter-wrapper-desktoptab{
+    display:none;
   }
 
   .Typewriter__wrapper {
